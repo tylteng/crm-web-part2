@@ -1,2 +1,10 @@
-<a href="/contacts">Contacts</a>
-<a href="/about">About</a>
+
+<h2>There are <span><%=@all_contacts.count%></span> contacts</h2>
+
+
+<% @all_contacts.each do |x| %>
+<div>
+  <%=x.full_name%> (<%=x.email%>)
+  <p><a href="#">Edit</a> | <a href="#">Delete</a></p>
+</div>
+<% end %>

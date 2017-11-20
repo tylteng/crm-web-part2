@@ -1,0 +1,50 @@
+html {
+  font-family: helvetica, sans-serif;
+}
+
+header>h2 {
+  text-align: center;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: .5em;
+  margin: .05em;
+}
+
+ul {
+  margin: 0;
+}
+
+nav>ul {
+  /*text-align: center;*/
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul>li {
+  text-decoration: none;
+  text-align: center;
+  background-color: lightgray;
+  padding: .4em;
+  margin: .08em;
+}
+
+main>h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  font-size: .7em;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
