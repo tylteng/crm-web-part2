@@ -28,15 +28,12 @@ ul>li {
   margin: .08em;
 }
 
-main>h2 {
-  text-align: center;
-}
 
 footer {
   text-align: center;
 }
 
-a {
+li>a {
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -47,4 +44,45 @@ footer {
   background-color: black;
   color: white;
   padding: 1em;
+}
+
+main>h2 {
+  font-size: 1em;
+  font-weight: 500;
+  background-color: rgb(252, 128, 113);
+  padding: .8em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+main>h2 {
+  /*text-align: center;*/
+}
+
+main {
+  box-sizing: border-box;
+  padding: 0em;
+  margin: 0 1.5em 0 1.5em;
+}
+
+h2>span {
+  font-weight: 600;
+  border-bottom: 3px solid rgb(42, 224, 208);
+}
+
+main>div {
+
+  box-sizing: border-box;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgb(42, 224, 208);
+  padding: .8em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+div>p {
+  font-size: .7em;
+  font-weight: normal;
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
